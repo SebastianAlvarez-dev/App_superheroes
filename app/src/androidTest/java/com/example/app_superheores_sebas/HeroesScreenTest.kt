@@ -31,7 +31,10 @@ class HeroesScreenTest {
         composeRule.onNode(hasScrollAction())
             .performScrollToNode(androidx.compose.ui.test.hasText("Sebasgod"))
         composeRule.onNodeWithText("Sebasgod").assertIsDisplayed()
-        composeRule.onNodeWithText("Domina Kotlin y derrota bugs con su poder legendario.")
+        composeRule.onNodeWithText(
+            androidx.test.platform.app.InstrumentationRegistry.getInstrumentation()
+                .targetContext.getString(R.string.description_sebasgod)
+        )
             .assertIsDisplayed()
     }
 }
