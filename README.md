@@ -10,3 +10,10 @@ Comprobar con: gradlew.bat testDebugUnitTest assembleDebug
 ## Creditos
 [Practica oficial](https://developer.android.com/codelabs/basic-android-kotlin-compose-practice-superheroes) y [codigo de referencia](https://github.com/google-developer-training/basic-android-kotlin-compose-training-superheroes).
 Licencias originales en LICENSE y ASSETS_LICENSE.txt.
+
+## Heroe personalizado
+Sebasgod: domina Kotlin y derrota bugs. Ilustracion vectorial original incluida.
+
+## Pruebas en dispositivo
+Con depuracion USB autorizada: gradlew.bat connectedDebugAndroidTest
+Comprueba la lista y el desplazamiento hasta Sebasgod en ambos temas.
